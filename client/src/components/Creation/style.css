@@ -1,0 +1,53 @@
+.create{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.mapboxgl-map  *{
+    margin: 10px 0;
+}
+.mapboxgl-map {
+    transform: scale(1.06);
+}
+label{
+    color: tomato;
+    border-bottom: 1px solid tomato;
+    width: max-content;
+    margin: 3px 0;
+    font-size: 15px;
+}
+input{
+    display: block;
+    width: 88%;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+textarea{
+    margin-top: 10px;
+    display: block;
+    width: 88%;
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+select{
+    display: block;
+    width: 88%;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+    background-color: transparent;
+    border-bottom: 1px solid gray;
+}
+
+.button{
+    width: 88%;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background: tomato;
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,53 @@
+.card{
+    display: flex;
+    width: 250px;
+    /* height: 250px; */
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  label{
+    color: tomato;
+    font-size: 13px;
+    border-bottom: 1px solid tomato;
+    margin: 3px 0;
+    width: max-content;
+  }
+  
+  .desc{
+    font-size: 14px;
+  }
+  
+  .star{
+    color: gold;
+  }
+  
+  .username{
+    font-size: 14px;
+  }
+  .auth{
+    position: absolute;
+    right:5%;
+    display: inline-block;
+  }
+  .auth button{
+    margin: 0 5px 0 5px;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .auth > button:first-child{
+    background: rgb(55, 185, 76);
+  }
+  .auth > button:nth-child(2){
+    background:rgb(228, 49, 73);
+  }
+  .auth > button:last-child{
+    background:rgb(44, 182, 216);
+  }
+  i{
+    font-size: 10px;
+  }
